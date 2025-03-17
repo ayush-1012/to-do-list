@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif ;
+}
+
+body{
+    background-color: #9DC08B;
+    
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#logo{
+    display: flex;
+    justify-content:center ;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: #F8F5E9;
+}
+
+#input_container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.input{
+    /* background-color: #DF6D14; */
+    color: #DF6D14;;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0.6rem;
+    margin-right: 0.2rem;
+    border: 1px solid black;
+    background-color: #F8F5E9;
+}
+.submit-btn{
+    background-color:#DF6D14 ;
+    width: 4.5rem;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    color: #F8F5E9;
+    font-size: 1rem;
+    padding: 0rem 10px;
+}
+#main-list{
+    display: flex;
+    justify-content: center;
+}
+#list{
+    width: 80%;
+    /* position: relative; */
+    
+}
+.task{
+    display: flex;
+    padding: 0.5rem;
+    margin: 0.3rem 0rem;
+    background-color: #F8F5E9;
+    border-radius: 5px;
+
+}
+.check{
+    margin-right: 1rem;
+}
+img{
+    height: 1rem;
+    width: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 600px){
+    #list{
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 1024px){
+    #list{
+        width: 50%;
+    }
+    .task{
+        padding: 1rem;
+    }
+}
